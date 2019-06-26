@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "190987053229",
+    "firebase_url": "https://hackathone-19.firebaseio.com",
+    "project_id": "hackathone-19",
+    "storage_bucket": "hackathone-19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190987053229:android:c848b3dca925722b",
+        "android_client_info": {
+          "package_name": "com.nitp.manish.hmsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190987053229-6ga6kl3478lkjdeqo97m9kogakptaqq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitp.manish.hmsi",
+            "certificate_hash": "5517096ede6376b82d7f8db1ebab124d28fd68ff"
+          }
+        },
+        {
+          "client_id": "190987053229-m3v341j7p0cdikdkbpc3bmdgshsa00km.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh1AcqD5DqbGv4tGHFw0J2mC2ZvmF-W-w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190987053229-m3v341j7p0cdikdkbpc3bmdgshsa00km.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

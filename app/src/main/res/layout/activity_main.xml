@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/LightBlue">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imgBtnPayToll"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="@dimen/size_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/pay_toll"
+
+                app:layout_constraintEnd_toStartOf="@+id/imgBtnHospital"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvPayToll"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Pay Toll"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgBtnPayToll" />
+
+            <ImageButton
+                android:id="@+id/imgBtnHospital"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="@dimen/size_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:src="@drawable/ic_hospital"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgBtnPayToll"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvLocateHos"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Locate Hospitals"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgBtnHospital" />
+
+
+            <ImageButton
+                android:id="@+id/imgBtnNearby"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="@dimen/size_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_nearby"
+                app:layout_constraintEnd_toStartOf="@+id/imgBtnReport"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvPayToll" />
+
+            <TextView
+                android:id="@+id/tvNearby"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Nearby"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgBtnNearby" />
+
+            <ImageButton
+                android:id="@+id/imgBtnReport"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="@dimen/size_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_report"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgBtnNearby"
+                app:layout_constraintTop_toBottomOf="@+id/tvLocateHos" />
+
+            <TextView
+                android:id="@+id/tvReport"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Report"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgBtnReport" />
+
+            <ImageButton
+                android:id="@+id/imgBtnHelpline"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="@dimen/size_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_helpline"
+                app:layout_constraintEnd_toStartOf="@+id/imgBtnFeedback"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvNearby" />
+
+            <TextView
+                android:id="@+id/tvHelpline"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Helpline"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgBtnHelpline" />
+
+            <ImageButton
+                android:id="@+id/imgBtnFeedback"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="@dimen/size_icon"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_feedback"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgBtnHelpline"
+                app:layout_constraintTop_toBottomOf="@+id/tvReport" />
+
+            <TextView
+                android:id="@+id/tvFeedback"
+                android:layout_width="@dimen/size_icon"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Feedback"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgBtnFeedback" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

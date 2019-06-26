@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NearbyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivNearbyToll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_nearby_toll"
+                android:layout_marginBottom="@dimen/margin"
+                />
+
+            <ImageView
+                android:id="@+id/ivNearbyPetrolPump"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_nearby_petrol_pump"
+                android:layout_marginBottom="@dimen/margin"
+                />
+
+            <ImageView
+                android:id="@+id/ivNearbyMechanic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_nearby_mechanic"
+                android:layout_marginBottom="@dimen/margin"
+                />
+
+            <ImageView
+                android:id="@+id/ivNearbyRestroom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_nearby_restroom"
+                android:layout_marginBottom="@dimen/margin"
+                />
+
+            <ImageView
+                android:id="@+id/ivNearbyRestaurants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_nearby_restaurants"
+                android:layout_marginBottom="@dimen/margin"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

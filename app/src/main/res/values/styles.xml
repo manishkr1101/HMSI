@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+    <style name="mapTheme" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <string-array name="vehicle_type">
+
+        <item>2 Wheeler</item>
+        <item>4 Wheeler</item>
+        <item>6 Wheeler</item>
+        <item>8 Wheeler</item>
+        <item>10 Wheeler</item>
+        <item>12 Wheeler</item>
+        <item>14 Wheeler</item>
+        <item>16 Wheeler</item>
+        <item>18 Wheeler</item>
+        <item>20 Wheeler</item>
+        <item>22 Wheeler</item>
+
+    </string-array>
+
+
+
+</resources>

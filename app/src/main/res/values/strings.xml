@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">HMSI</string>
+    <string name="large_text">
+        This app is in developement.\nYou can do signup, login, logout at this time.\nEnjoy......
+    </string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="textViewLogin">Connect with HMSI</string>
+    <string name="menu_title_login">Login</string>
+    <string name="menu_title_signup">SignUp</string>
+    <string name="btn_signup">signup</string>
+    <string name="menu_title_setting">Account Settings</string>
+    <string name="Repassword_hint">Confirm Password</string>
+    <string name="menu_title_logout">Logout</string>
+    <string name="menu_title_about">About</string>
+    <string name="about_description">
+        \t\t\tThis mobile application eases up your journey on highways. It is a highway traveler’s app which is free and easy to use on your road trips.\n
+        \t\t\tWe are offering you information of everything that comes across you on a highway.Our aim is to make highway sector more organized and easier.It helps traveler’s travel from their source to destination by connecting through major Indian highways to have a delightful travel experience.\n
+        \t\t\tIt is all in one app for a complete road trip.Now Indian highway travelers can find everything nearby them easily and all with the tap of a button.We are providing you hassle free access to the various areas on highway routes.\n
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+    <array name="TollList">
+        <item>Bodha Toll Plaza Chhapra Bihar</item>
+        <item>Moahania Toll Plaza</item>
+        <item>Saidpur Patheda</item>
+        <item>Toll Plaza</item>
+    </array>
+
+    <array name="ReportSubject">
+        <item>Toll Plaza Management</item>
+        <item>Potholes issue</item>
+        <item>Poor work progress at construction site</item>
+        <item>Road Maintanance</item>
+        <item>Others</item>
+    </array>
+
+</resources>
